@@ -1,3 +1,5 @@
+
+<?php
 function show_admin_home(){
 
 $htmlpage = <<< HTMLPAGE
@@ -22,5 +24,5 @@ $htmlpage = <<< HTMLPAGE
 HTMLPAGE;
 print $htmlpage;
 }
-
+?>
 
