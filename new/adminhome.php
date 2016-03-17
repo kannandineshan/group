@@ -4,7 +4,6 @@
 
 <!-- [START OF HEAD] --------------------------------------------------------------------------------------------->
 <head>
-    <link rel="import" href="assets/php/navigation.html">
     <meta charset="UTF-8">
 
     <!-- WINDOW TAB TITLE -->
@@ -31,7 +30,9 @@
 
     <!-- NAVIGATION -->
     <nav>
-
+        <?php
+        include "navigation.html";
+        ?>
     </nav>
 </header>
 <!-- [END OF HEADER] ---------------------------------------------------------------------------------------------->
