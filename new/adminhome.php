@@ -32,7 +32,8 @@
     <!-- NAVIGATION -->
     <nav>
         <?php
-        include("assets/php/navigation.html");
+
+        #include file="navigation.html"
         ?>
     </nav>
 </header>
