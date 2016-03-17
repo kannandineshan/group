@@ -31,7 +31,7 @@
 
     <!-- NAVIGATION -->
     <nav>
-        #include virtual="navigation.html"
+        <?php include 'navigation.html';?>
     </nav>
 </header>
 <!-- [END OF HEADER] ---------------------------------------------------------------------------------------------->
