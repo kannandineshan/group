@@ -31,7 +31,9 @@
 
     <!-- NAVIGATION -->
     <nav>
-        <!--#include file="navigation.html" -->
+        <?php
+        include("assets/php/navigation.html");
+        ?>
     </nav>
 </header>
 <!-- [END OF HEADER] ---------------------------------------------------------------------------------------------->
