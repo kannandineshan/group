@@ -1,4 +1,6 @@
+function show_admin_home(){
 
+$htmlpage = <<< HTMLPAGE
         <ul>
             <li><a class="active" href="#">Home</a></li>
             <li class="dropdown"><a href="#" class="dropbtn">User Login Setup</a>
@@ -16,5 +18,9 @@
             <li style="float:right"><a href="#">Logout</a></li>
             <li style="float:right" ><a href="#">My Account</a></li>
         </ul>
+
+HTMLPAGE;
+print $htmlpage;
+}
 
 
