@@ -52,7 +52,7 @@
 
     <!--  start page-title -->
     <div id="page-title">
-        <h1>Administrator Home Page</h1>
+        Administrator Home Page
     </div>
     <!--  end page-title -->
 
