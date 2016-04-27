@@ -1,14 +1,14 @@
 body{
-    max-width: 1700px;
     background-color: aliceblue;
+    max-width: 1700px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
 header{
-    margin-left: auto;
-    margin-right: auto;
-    height: 400px;
     background-color: yellowgreen;
+    height: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
