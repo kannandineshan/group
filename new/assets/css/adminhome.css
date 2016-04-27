@@ -146,9 +146,10 @@ li.dropdown {
 
 
 /*<!-- [START OF PAGE TITLE CSS FOR ADMIN HOME PAGE (inside main)] -------------------------------------------------->*/
+
 #page-title{
-    font-size: large;
-    font-style: oblique;
+    font-size: 25%;
+    font-weight: bold;
 }
 /*<!-- [END OF PAGE TITLE CSS FOR ADMIN HOME PAGE (inside main)] ---------------------------------------------------->*/
 
