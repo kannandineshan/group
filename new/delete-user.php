@@ -109,7 +109,7 @@ if(isset($_GET['vol_email']))
         <!-- start id-form -->
         <form id="deleteform" action='' method='post'>
 
-            <label>Sr. #</label>
+            <label>Serial Number of Volunteer</label>
 
             <label>Login Name</label>
 
