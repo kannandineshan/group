@@ -104,27 +104,27 @@ if(isset($_GET['vol_email']))
 
     <!--  start table-content  -->
     <div id="table-content">
-        <h2><span style="text-decoration: underline;"> Add User details: </span></h2>
+        <h2><span style="text-decoration: underline;"> Volunteer details: </span></h2>
 
         <!-- start id-form -->
         <form id="deleteform" action='' method='post'>
 
 
-            <label>Login Name</label>
+            <label><span style="text-decoration: underline;"> Login Name</span></label>
 
             <label></label>
 
-            <label>First Name</label>
+            <label><span style="text-decoration: underline;"> First Name</span></label>
 
-            <label>Surname</label>
+            <label><span style="text-decoration: underline;"> Surname</span></label>
 
-            <label>Child Matched?</label>
+            <label><span style="text-decoration: underline;"> Child Matched?</span></label>
 
-            <label>Child Gender</label>
+            <label><span style="text-decoration: underline;"> Child Gender</span></label>
 
-            <label>Child Date of Birth</label>
+            <label><span style="text-decoration: underline;"> Child Date of Birth</span></label>
 
-            <label>Options</label>
+            <label><span style="text-decoration: underline;"> Options</span></label>
 
             <?php
 
