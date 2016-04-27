@@ -106,7 +106,7 @@
                     <input type="radio" name="child_matched" value=false id="no" required>No
 
             <div id="childinfo" style="display: none;">
-                <br>
+        <br>
                 <div>
                 <label for="gender">Child's gender:</label>
                     <input type="radio" name="child_gender" value="male" class="disabledelements" id="gender" required>Male
