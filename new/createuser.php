@@ -135,8 +135,8 @@
 <!-- javascript for random password -->
 <script type='text/javascript' src='admin_assets/admin_javascript/randompassword.js'></script>
 
-<!-- javascript for random password -->
-<script src="jsadminpage/jquery/enabledisablegender.js" type="text/javascript"></script>
+<!-- javascript for enable/disable option -->
+<script src="admin_assets/admin_javascript/enabledisable.js" type="text/javascript"></script>
 
 <!-- [END CALL JQUERY SCRIPT FUNCTIONS] ---------------------------------------------------------------->
 
