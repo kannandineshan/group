@@ -4,24 +4,7 @@
 
 
 
-    //sends user back to index.php if not logged in
-    session_start();
-    if(!isset($_SESSION['ad_email'])){
-        header("Location: index.php");
-    }
 
-
-    //This check shows the right message if the user was created or existed already
-    if($_SERVER['REQUEST_METHOD']==='GET'){
-        $success = $_GET["Success"];
-
-        if($success=="Yes"){
-            echo "<SCRIPT>alert('User created!!!');</SCRIPT>";
-        }
-        elseif($success=="No"){
-            echo "<script>alert('User already exists');</script>";
-        }
-    }
 ?>
 
 
