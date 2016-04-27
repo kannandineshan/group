@@ -76,23 +76,29 @@
 
         <!-- start id-form -->
         <form id="idform" action='createlogin.php' method='post'>
-            <div>
 
+    <div>
             <label for="firstname">Firstname:</label>
                 <input type="text"  class="inp-form" name="firstname" id="firstname" required/>
+    </div>
 
+    <div>
             <label for="surname">Surname:</label>
                 <input type="text" class="inp-form" name="surname" id="surname" required/>
 
+    </div>
 
+    <div>
             <label for="email">E-mail:</label>
                 <input type="email" class="inp-form" name="email" id="email" required/>
-
+    </div>
+    <div>
             <!-- added field for random password -->
             <label for="pass">Password:</label>
                 <input type="password" class="inp-form" name="password" id="pass" required/>
                 <button type="button" onclick="output()">Create Password</button>
-
+    <div>
+    <div>
             <label>Currently matched with a child?</label>
                     <input type="radio" name="child_matched" value=true id="yes" required>Yes
                     <input type="radio" name="child_matched" value=false id="no" required>No
@@ -108,11 +114,13 @@
                     <input  type="date" class="disabledelements" disabled name="date_of_birth" id="dateofbirth" required/>
 
             </div>
+    </div>
 
+    <div>
             <input id="submit" type="submit" value="SUBMIT" class="form-submit"/>
             <input type="reset" value="RESET" class="form-reset"/>
+    </div>
 
-            </div>
         </form>
 
         <!-- end id-form  -->
