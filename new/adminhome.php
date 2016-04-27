@@ -21,10 +21,10 @@
     <title>Admin Home</title>
 
     <!-- WINDOW TAB ICON -->
-    <link rel="shortcut icon" href="assets/images/tabicon.png" type="image/x-icon" />
+    <link rel="shortcut icon" href="admin_assets/admin_images/tabicon.png" type="image/x-icon" />
 
     <!-- CSS Stylesheet-->
-    <link rel="stylesheet" href="assets/css/adminhome.css" type="text/css">
+    <link rel="stylesheet" href="admin_assets/admin_css/adminhome.css" type="text/css">
 </head>
 <!-- [END OF HEAD] ----------------------------------------------------------------------------------------------->
 
@@ -34,20 +34,20 @@
 
 
 
-<!-- [START OF HEADER] ------------------------------------------------------>
+<!-- [START OF HEADER] ------------------------------------------------------->
 <header>
 
     <!-- TOP PAGE BANNER -->
     <section class="container" id="bannercontainer"></section>
 
     <!-- NAVIGATION -->
-    <nav> <?php include("assets/htmlscripts/navigationscript.html"); ?> </nav>
+    <nav> <?php include("admin_assets/admin_htmlscripts/navigationscript.html"); ?> </nav>
 
 </header>
-<!-- [END OF HEADER] ------------------------------------------------------->
+<!-- [END OF HEADER] --------------------------------------------------------->
 
 
-<!-- [START OF MAIN] ------------------------------------------------------>
+<!-- [START OF MAIN] --------------------------------------------------------->
 <main>
 
     <!--  start page-title -->
@@ -65,12 +65,23 @@
         <h3><a href="viewreport.php">Reports</a></h3>
     <!--  end table-content  -->
 
-
 </main>
-<!-- [END OF MAIN] ------------------------------------------------------->
+<!-- [END OF MAIN] ---------------------------------------------------------->
 
 
+<!-- [START OF FOOTER] ------------------------------------------------------>
+<footer>
 
+    <!--  start footer-content -->
+    <div id="footer-left">
+        <img src="admin_assets/admin_images/bfcfooterlogo.png">
+        Copyright 2016 Befriend A Child <a href="http://www.befriendachild.org.uk">http://www.befriendachild.org.uk/</a>
+        All rights reserved.
+    </div>
+    <!--  end footer-footer -->
+
+</footer>
+<!-- [END OF FOOTER] -------------------------------------------------------->
 
 
 </body>
