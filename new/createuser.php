@@ -76,6 +76,7 @@
 
         <!-- start id-form -->
         <form id="idform" action='createlogin.php' method='post'>
+            <div>
 
             <label for="firstname">Firstname:</label>
                 <input type="text"  class="inp-form" name="firstname" id="firstname" required/>
@@ -111,6 +112,7 @@
             <input id="submit" type="submit" value="SUBMIT" class="form-submit"/>
             <input type="reset" value="RESET" class="form-reset"/>
 
+            </div>
         </form>
 
         <!-- end id-form  -->
