@@ -45,7 +45,7 @@ footer{
 #bannercontainer{
      background: url("../admin_images/bfcheaderbanner.png") center;
      height: 100px;
-     width: 1200px;
+     max-width: 1200px;
 }
 /*<!-- [END OF BANNER CSS FOR ALL ADMIN PAGES (inside header)] ------------------------------------------------------>*/
 
