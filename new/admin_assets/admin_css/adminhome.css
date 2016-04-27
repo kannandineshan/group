@@ -50,7 +50,7 @@ footer{
 /*<!-- [START OF NAVIGATION CSS FOR ALL ADMIN PAGES (inside header)] ------------------------------------------------>*/
 
 nav{
-    height: 100px;
+    height: auto;
     width: 1200px;
     border-radius: 20px;
     border: 5px solid black;
