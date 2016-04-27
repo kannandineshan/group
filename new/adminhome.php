@@ -58,7 +58,7 @@
 
     <!--  start page-title -->
     <div id="page-title">
-        Administrator Home Page
+        <h1>Administrator Home Page</h1>
     </div>
     <!--  end page-title -->
 
@@ -69,6 +69,7 @@
         <h3><a href="delete-user.php">Edit Volunteers</h3>
         <h3><a href="view.php">Surveys</a></h3>
         <h3><a href="viewreport.php">Reports</a></h3>
+    </div>
     <!--  end table-content  -->
 
 </main>

@@ -164,9 +164,7 @@ li.dropdown {
 /*<!-- [START OF PAGE TITLE CSS FOR ADMIN HOME PAGE (inside main)] -------------------------------------------------->*/
 
 #page-title{
-    background-color: lightsteelblue;
-    font-size: 25px;
-    font-weight: bold;
+    box-shadow: 0 9px #999;
 }
 /*<!-- [END OF PAGE TITLE CSS FOR ADMIN HOME PAGE (inside main)] ---------------------------------------------------->*/
 
