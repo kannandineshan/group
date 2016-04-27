@@ -127,10 +127,9 @@ li.dropdown {
 
 /*<!-- [START OF FOOTER LOGO CSS FOR ALL ADMIN PAGE (inside main)] ----------------------------------------------->*/
 
-#table-content{
-    background-color: bisque;
-    height: auto;
-    width: 1200px;
+#bfcfooterlogo{
+    height: 10px;
+    width: 10px;
 }
 /*<!-- [END OF TABLE CONTENT CSS FOR ALL ADMIN PAGE (inside main)] ------------------------------------------------->*/
 
