@@ -100,6 +100,7 @@
                 <button type="button" onclick="output()">Create Password</button>
     <div>
         <div id="clear"></div>
+        <div id="clear"></div>
     <div>
             <label>Currently matched with a child?</label>
                     <input type="radio" name="child_matched" value=true id="yes" required>Yes
