@@ -43,7 +43,9 @@ if(!isset($_SESSION['ad_email'])){
 <header>
 
     <!-- TOP PAGE BANNER -->
-    <img src="admin_assets/admin_images/bfcheaderbanner.png" id="bfcheaderbanner">
+    <section class="container" id="bannercontainer">
+        <img src="admin_assets/admin_images/bfcheaderbanner.png" id="bfcheaderbanner">
+    </section>
 
     <!-- NAVIGATION -->
     <!-- [START OF NAVIGATION] ----------------------------------------------->

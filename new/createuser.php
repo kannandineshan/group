@@ -44,7 +44,9 @@
 <header>
 
     <!-- TOP PAGE BANNER -->
-    <section class="container" id="bannercontainer"></section>
+    <section class="container" id="bannercontainer">
+        <img src="admin_assets/admin_images/bfcheaderbanner.png" id="bfcheaderbanner">
+    </section>
 
     <!-- NAVIGATION -->
     <!-- [START OF NAVIGATION] ----------------------------------------------->
