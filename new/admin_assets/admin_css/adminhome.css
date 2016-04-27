@@ -146,7 +146,7 @@ li.dropdown {
 #table-content{
     background-color: bisque;
     height: auto;
-    max-width: 1200px;
+    width: 1200px;
 }
 /*<!-- [END OF TABLE CONTENT CSS FOR ALL ADMIN PAGE (inside main)] ------------------------------------------------->*/
 
