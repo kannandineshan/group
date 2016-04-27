@@ -181,3 +181,10 @@ li.dropdown {
 
 
 
+/*<!-- [START OF FORM CSS FOR CREATE USER PAGE (inside main)] ------------------------------------------------------->*/
+
+#idform{
+    display: flex;
+    flex-direction: column;
+}
+/*<!-- [END OF FORM CSS FOR CREATE USER PAGE (inside main)] --------------------------------------------------------->*/
