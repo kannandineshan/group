@@ -8,14 +8,12 @@
 /*<!-- [START OF LAYOUT CSS FOR ALL ADMIN PAGES ] ------------------------------------------------------------------->*/
 
 body{
-    background-color: aliceblue;
     max-width: 1700px;
     margin-left: auto;
     margin-right: auto;
 }
 
 header{
-    background-color: yellowgreen;
     height: auto;
     display: flex;
     flex-direction: column;
@@ -23,7 +21,6 @@ header{
 }
 
 main{
-    background-color: lightblue;
     height: auto;
     display: flex;
     flex-direction: column;
@@ -31,7 +28,6 @@ main{
 }
 
 footer{
-    background-color: lightpink;
     height: auto;
     display: flex;
     flex-direction: column;
