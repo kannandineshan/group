@@ -125,7 +125,7 @@ if($_SERVER['REQUEST_METHOD']==='GET'){
             {
             $counter++;
             ?>
-
+<div>
             <label><?php echo $counter; ?></label>
                 <label><?php echo $row['vol_email']; ?></label>
                     <label><?php echo $row['vol_firstname']; ?></label>
@@ -157,7 +157,7 @@ if($_SERVER['REQUEST_METHOD']==='GET'){
                     &nbsp;&nbsp;&nbsp;<a href="?vol_email=<?php echo $row['vol_email']; ?>" style="color:red;">Delete</a>
                                         </label>
 
-
+</div>
                 <?php
 
             }//end of for loop
