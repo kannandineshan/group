@@ -104,15 +104,16 @@
                     <input type="radio" name="child_matched" value=false id="no" required>No
 
             <div id="childinfo" style="display: none;">
-
+                <div>
                 <label for="gender">Child's gender:</label>
                     <input type="radio" name="child_gender" value="male" class="disabledelements" id="gender" required>Male
                     <input type="radio" name="child_gender" value="female" class="disabledelements" id="gender" required>Female
                     <input type="radio" name="child_gender" value="other" class="disabledelements" id="gender" required>Other
-
+                </div>
+                <div>
                 <label for="dateofbirth">Child's date of birth:</label>
                     <input  type="date" class="disabledelements" disabled name="date_of_birth" id="dateofbirth" required/>
-
+                </div>
             </div>
     </div>
 
