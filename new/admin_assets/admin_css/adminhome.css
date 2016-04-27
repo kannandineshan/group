@@ -185,5 +185,7 @@ li.dropdown {
 #idform{
     display: flex;
     flex-direction: column;
+    height: auto;
+    width: 600px;
 }
 /*<!-- [END OF FORM CSS FOR CREATE USER PAGE (inside main)] --------------------------------------------------------->*/
