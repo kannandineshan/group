@@ -104,7 +104,7 @@
             <label>Currently matched with a child?</label>
                     <input type="radio" name="child_matched" value=true id="yes" required>Yes
                     <input type="radio" name="child_matched" value=false id="no" required>No
-
+        <br>
             <div id="childinfo" style="display: none;">
                 <div>
                 <label for="gender">Child's gender:</label>
