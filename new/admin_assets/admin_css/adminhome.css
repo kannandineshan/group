@@ -41,6 +41,8 @@ footer{
 #bfcheaderbanner{
      height: 100px;
      width: 1200px;
+    border-radius: 25px;
+    border: 5px solid black;
 }
 /*<!-- [END OF BANNER CSS FOR ALL ADMIN PAGES (inside header)] ------------------------------------------------------>*/
 
@@ -51,6 +53,8 @@ nav{
     background-color: lemonchiffon;
     height: 100px;
     width: 1200px;
+    border-radius: 25px;
+    border: 5px solid black;
 }
 
 
@@ -139,9 +143,10 @@ li.dropdown {
 /*<!-- [START OF TABLE CONTENT CSS FOR ALL ADMIN PAGE (inside main)] ----------------------------------------------->*/
 
 #table-content{
-    background-color: bisque;
     height: auto;
     width: 1200px;
+    border-radius: 25px;
+    border: 5px solid black;
 }
 /*<!-- [END OF TABLE CONTENT CSS FOR ALL ADMIN PAGE (inside main)] ------------------------------------------------->*/
 
