@@ -110,19 +110,19 @@ if(isset($_GET['vol_email']))
         <form id="deleteform" action='' method='post'>
 
             <label>Sr. #</label>
-
+            <label></label>
             <label>Login Name</label>
-
+            <label></label>
             <label>First Name</label>
-
+            <label></label>
             <label>Surname</label>
-
+            <label></label>
             <label>Child Matched?</label>
-
+            <label></label>
             <label>Child Gender</label>
-
+            <label></label>
             <label>Child Date of Birth</label>
-
+            <label></label>
             <label>Options</label>
 
             <?php
