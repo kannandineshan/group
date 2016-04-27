@@ -144,7 +144,7 @@ li.dropdown {
 #table-content{
     height: auto;
     width: 1200px;
-    border-radius: 20px;
+    border-radius: 15px;
     border: 5px solid black;
 }
 /*<!-- [END OF TABLE CONTENT CSS FOR ALL ADMIN PAGE (inside main)] ------------------------------------------------->*/
