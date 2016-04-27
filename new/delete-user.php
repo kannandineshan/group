@@ -110,7 +110,7 @@ if(isset($_GET['vol_email']))
         <form id="deleteform" action='' method='post'>
 
             <label>Sr. #</label>
-
+            <label></label>
             <label>Login Name</label>
 
             <label>First Name</label>
