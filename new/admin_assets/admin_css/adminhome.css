@@ -125,6 +125,16 @@ li.dropdown {
 /*<!-- [END OF NAVIGATION CSS FOR ALL ADMIN PAGES (inside header)] -------------------------------------------------->*/
 
 
+/*<!-- [START OF FOOTER LOGO CSS FOR ALL ADMIN PAGE (inside main)] ----------------------------------------------->*/
+
+#table-content{
+    background-color: bisque;
+    height: auto;
+    width: 1200px;
+}
+/*<!-- [END OF TABLE CONTENT CSS FOR ALL ADMIN PAGE (inside main)] ------------------------------------------------->*/
+
+
 
 /*____________________________________________________________________________________________________________________*/
 
