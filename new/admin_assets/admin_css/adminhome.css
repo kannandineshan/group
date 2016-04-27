@@ -29,6 +29,14 @@ main{
     flex-direction: column;
     align-items: center;
 }
+
+footer{
+    background-color: lightpink;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 /*<!-- [START OF LAYOUT CSS FOR ALL ADMIN PAGES (inside header)] ---------------------------------------------------->*/
 
 

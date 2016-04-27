@@ -41,7 +41,13 @@
     <section class="container" id="bannercontainer"></section>
 
     <!-- NAVIGATION -->
-    <nav> <?php include("admin_assets/admin_htmlscripts/navigationscript.html"); ?> </nav>
+    <!-- [START OF NAVIGATION] ----------------------------------------------->
+    <nav>
+
+        <?php include("admin_assets/admin_htmlscripts/navigationscript.html"); ?>
+
+    </nav>
+    <!-- [END OF NAVIGATION] ------------------------------------------------->
 
 </header>
 <!-- [END OF HEADER] --------------------------------------------------------->
@@ -72,13 +78,7 @@
 <!-- [START OF FOOTER] ------------------------------------------------------>
 <footer>
 
-    <!--  start footer-content -->
-    <div id="footer-left">
-        <img src="admin_assets/admin_images/bfcfooterlogo.png">
-        Copyright 2016 Befriend A Child <a href="http://www.befriendachild.org.uk">http://www.befriendachild.org.uk/</a>
-        All rights reserved.
-    </div>
-    <!--  end footer-footer -->
+    <?php include("admin_assets/admin_htmlscripts/footerscript.html"); ?>
 
 </footer>
 <!-- [END OF FOOTER] -------------------------------------------------------->
