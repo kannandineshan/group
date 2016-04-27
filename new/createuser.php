@@ -1,16 +1,28 @@
 <?php
 
-//THIS PAGE IS DESTINATION FOR ADMIN WHEN LOGGED IN AND TRYING TO ACCESS INDEX.PHP, AND WHEN CLICKING LINKS LEADING HERE
+    //THIS PAGE IS DESTINATION WHEN ADMIN WANTS TO CREATE A NEW USER AND WHEN A NEW USER HAS BEEN ADDED TO THE DATABASE
 
-//If no session exists, admin is sent to index.php
-session_start();
-if(!isset($_SESSION['ad_email'])){
-    header("Location: index.php");
-}
 
+
+    //sends user back to index.php if not logged in
+    session_start();
+    if(!isset($_SESSION['ad_email'])){
+        header("Location: index.php");
+    }
+
+
+    //This check shows the right message if the user was created or existed already
+    if($_SERVER['REQUEST_METHOD']==='GET'){
+        $success = $_GET["Success"];
+
+        if($success=="Yes"){
+            echo "<SCRIPT>alert('User created!!!');</SCRIPT>";
+        }
+        elseif($success=="No"){
+            echo "<script>alert('User already exists');</script>";
+        }
+    }
 ?>
-
-
 
 
 <!DOCTYPE html>
@@ -63,7 +75,7 @@ if(!isset($_SESSION['ad_email'])){
 
     <!--  start page-title -->
     <div id="page-title">
-        <h1>Administrator Home Page</h1>
+        <h1>Create User Login</h1>
     </div>
     <!--  end page-title -->
 
