@@ -193,3 +193,6 @@ label {
 }​
 /*<!-- [END OF FORM CSS FOR CREATE USER PAGE (inside main)] --------------------------------------------------------->*/
 
+ #deleteform{
+     width: 600px;
+ }

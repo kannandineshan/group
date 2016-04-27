@@ -1,9 +1,31 @@
 <?php
 
 
-    //THIS PAGE PRESENTS ADMIN WITH A FORM TO CHANGE DATA ABOUT VOLUNTEERS, IT IS LINKED TO/FROM DELETE-USER
+//THIS PAGE PRESENTS ADMIN WITH A FORM TO CHANGE DATA ABOUT VOLUNTEERS, IT IS LINKED TO/FROM DELETE-USER
+
+//important functions are here
+include 'functions.php';
+
+//without login session, the admin is sent back to index.php
+session_start();
+if(!isset($_SESSION['ad_email'])){
+    header("Location: index.php");
+}
 
 
+//I DON'T WANNA TOUCH THIS NEXT BIT...
+if(isset($_POST['update']))
+{
+
+    updateUser();
+    header("location: delete-user.php");
+}
+elseif(isset($_GET['vol_email']))
+{
+    $user_login=$_GET['vol_email'];
+    $result = getUser($user_login);
+    $row = mysqli_fetch_array($result);
+}
 ?>
 
 
@@ -80,7 +102,7 @@
         <h2><span style="text-decoration: underline;"> Add User details: </span></h2>
 
         <!-- start id-form -->
-        <form id="idform" action='createlogin.php' method='post'>
+        <form method="post" enctype="multipart/form-data">
 
             <div>
                 <label for="firstname">Firstname:</label>
