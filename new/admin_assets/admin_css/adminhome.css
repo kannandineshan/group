@@ -44,7 +44,7 @@ footer{
 
 #bfcheaderbanner{
      height: 100px;
-     width: 1200px;
+     max-width: 600px;
 }
 /*<!-- [END OF BANNER CSS FOR ALL ADMIN PAGES (inside header)] ------------------------------------------------------>*/
 
@@ -54,7 +54,7 @@ footer{
 nav{
     background-color: lemonchiffon;
     height: 100px;
-    width: 1200px;
+    max-width: 600px;
 }
 
 
