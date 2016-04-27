@@ -111,7 +111,7 @@ if(isset($_GET['vol_email']))
 
             <label>Sr. #</label>
 
-            <label>Sr. #</label>
+
 
             <label>Login Name</label>
 
@@ -154,7 +154,8 @@ if(isset($_GET['vol_email']))
                     ?>
             </label>
 
-            <label><?php
+            <label>
+                <?php
                     if($row['vol_child_matched']==1){
                         echo $row['vol_child_gender'];
                     }
@@ -163,7 +164,8 @@ if(isset($_GET['vol_email']))
                     }?>
             </label>
 
-            <label><?php
+            <label>
+                <?php
                     if($row['vol_child_matched']==1) {
                         echo $row['vol_child_dob'];
                     }
