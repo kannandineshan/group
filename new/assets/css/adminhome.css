@@ -1,3 +1,4 @@
+/*<!-- [START OF GENERAL CSS FOR ALL ADMIN PAGES] ------------------------------------------------------------------->*/
 body{
     background-color: aliceblue;
     max-width: 1700px;
@@ -19,17 +20,25 @@ main{
     height: auto;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    align-items: center;
 }
+/*<!-- [END OF GENERAL CSS FOR ALL ADMIN PAGES] --------------------------------------------------------------------->*/
+
+
+
+/*<!-- [START OF BANNER CSS (inside header)] ------------------------------------------------------------------------>*/
 
 #bannercontainer{
      background: url("../images/bfcheaderbanner.png") center;
      height: 100px;
      width: 1200px;
 }
+/*<!-- [END OF BANNER CSS (inside header)] ------------------------------------------------------------------------>*/
 
 
-/*<!-- [START OF NAVIGATION CSS] --------------------------------------------------------------------------------->*/
+
+/*<!-- [START OF NAVIGATION CSS (inside header)] -------------------------------------------------------------------->*/
+
 nav{
     background-color: lemonchiffon;
     height: 150px;
@@ -99,7 +108,15 @@ li.dropdown {
 .active {
     background-color: #4CAF50;
 }
-/*<!-- [END OF NAVIGATION CSS]----------------------------------------------------------------------------------->*/
+/*<!-- [END OF NAVIGATION CSS (inside header)]----------------------------------------------------------------------->*/
 
 
 
+/*<!-- [START OF TABLE CONTENT CSS (inside main)] ------------------------------------------------------------------->*/
+
+#table-content{
+    background-color: bisque;
+    height: 150px;
+    width: 1200px;
+}
+/*<!-- [END OF TABLE CONTENT CSS (inside main)] --------------------------------------------------------------------->*/
