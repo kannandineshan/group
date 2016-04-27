@@ -109,7 +109,7 @@ if(isset($_GET['vol_email']))
         <!-- start id-form -->
         <form id="deleteform" action='' method='post'>
 
-            <label>Serial Number of Volunteer</label>
+            <label>Sr. #</label>
 
             <label>Login Name</label>
 
@@ -138,6 +138,7 @@ if(isset($_GET['vol_email']))
             ?>
 
             <label><?php echo $counter; ?></label>
+                <label></label>
                 <label><?php echo $row['vol_email']; ?></label>
                     <label><?php echo $row['vol_firstname']; ?></label>
                         <label><?php echo $row['vol_surname']; ?></label>
