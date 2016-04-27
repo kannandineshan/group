@@ -68,12 +68,19 @@
 
     <!--  start page-title -->
     <div id="page-title">
-        <h1>Administrator Home Page</h1>
+        <h1>Edit Volunteers</h1>
     </div>
     <!--  end page-title -->
 
     <!--  start table-content  -->
     <div id="table-content">
+
+
+
+
+
+        <!-- start content-outer ........................................................................................................................START -->
+        <div class="container">
             <table class="table table-striped">
                 <thead>
                 <tr>
@@ -142,6 +149,13 @@
                 ?>
 
             </table>
+
+        </div>
+        <!--  end content-outer........................................................END -->
+
+
+
+
     </div>
     <!--  end table-content  -->
 
