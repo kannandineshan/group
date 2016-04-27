@@ -81,23 +81,25 @@
             <label for="firstname">Firstname:</label>
                 <input type="text"  class="inp-form" name="firstname" id="firstname" required/>
     </div>
-
+            <div id="clear"></div>
     <div>
             <label for="surname">Surname:</label>
                 <input type="text" class="inp-form" name="surname" id="surname" required/>
 
     </div>
-
+            <div id="clear"></div>
     <div>
             <label for="email">E-mail:</label>
                 <input type="email" class="inp-form" name="email" id="email" required/>
     </div>
+            <div id="clear"></div>
     <div>
             <!-- added field for random password -->
             <label for="pass">Password:</label>
                 <input type="password" class="inp-form" name="password" id="pass" required/>
                 <button type="button" onclick="output()">Create Password</button>
     <div>
+        <div id="clear"></div>
     <div>
             <label>Currently matched with a child?</label>
                     <input type="radio" name="child_matched" value=true id="yes" required>Yes
@@ -110,16 +112,18 @@
                     <input type="radio" name="child_gender" value="female" class="disabledelements" id="gender" required>Female
                     <input type="radio" name="child_gender" value="other" class="disabledelements" id="gender" required>Other
                 </div>
+                <div id="clear"></div>
                 <div>
                 <label for="dateofbirth">Child's date of birth:</label>
                     <input  type="date" class="disabledelements" disabled name="date_of_birth" id="dateofbirth" required/>
                 </div>
             </div>
     </div>
-
+        <div id="clear"></div>
     <div>
             <label></label>
             <input id="submit" type="submit" value="SUBMIT" class="form-submit"/>
+        <div id="clear"></div>
             <input type="reset" value="RESET" class="form-reset"/>
     </div>
 
