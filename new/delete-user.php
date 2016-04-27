@@ -111,7 +111,9 @@ if(isset($_GET['vol_email']))
 
 
             <label>Login Name</label>
+
             <label></label>
+
             <label>First Name</label>
 
             <label>Surname</label>
