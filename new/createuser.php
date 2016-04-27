@@ -117,6 +117,7 @@
     </div>
 
     <div>
+            <label></label>
             <input id="submit" type="submit" value="SUBMIT" class="form-submit"/>
             <input type="reset" value="RESET" class="form-reset"/>
     </div>
