@@ -111,8 +111,6 @@ if(isset($_GET['vol_email']))
 
             <label>Sr. #</label>
 
-
-
             <label>Login Name</label>
 
             <label>First Name</label>
@@ -138,48 +136,39 @@ if(isset($_GET['vol_email']))
             {
             $counter++;
             ?>
-
+<div>
             <label><?php echo $counter; ?></label>
-            <label><?php echo $counter; ?></label>
-            <label><?php echo $row['vol_email']; ?></label>
-            <label><?php echo $row['vol_firstname']; ?></label>
-            <label><?php echo $row['vol_surname']; ?></label>
-            <label><?php
+                <label><?php echo $row['vol_email']; ?></label>
+                    <label><?php echo $row['vol_firstname']; ?></label>
+                        <label><?php echo $row['vol_surname']; ?></label>
+                            <label><?php
                     if($row['vol_child_matched']==1){
                         echo "Yes";
                     }
                     else{
                         echo "No";
                     }
-                    ?>
-            </label>
-
-            <label>
-                <?php
+                    ?></label>
+                                <label><?php
                     if($row['vol_child_matched']==1){
                         echo $row['vol_child_gender'];
                     }
                     else{
                         echo "/";
-                    }?>
-            </label>
-
-            <label>
-                <?php
+                    }?></label>
+                                    <label><?php
                     if($row['vol_child_matched']==1) {
                         echo $row['vol_child_dob'];
                     }
                     else{
                         echo "/";
-                    }?>
-            </label>
-
-            <label>
+                    }?></label>
+                                        <label>
                     <a href="edit-user.php?vol_email=<?php echo $row['vol_email']; ?>" style="color:green;">Edit</a>
                     &nbsp;&nbsp;&nbsp;<a href="?vol_email=<?php echo $row['vol_email']; ?>" style="color:red;">Delete</a>
-            </label>
+                                        </label>
 
-
+</div>
                 <?php
 
             }//end of for loop
