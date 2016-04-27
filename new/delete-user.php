@@ -1,29 +1,40 @@
+
 <?php
-
-//THIS PAGE IS DESTINATION WHEN ADMIN WANTS TO CREATE A NEW USER AND WHEN A NEW USER HAS BEEN ADDED TO THE DATABASE
-
-
-
-//sends user back to index.php if not logged in
+/**
+ * Created by PhpStorm.
+ * User: chukwudiezekwesili
+ * Date: 29/03/2016
+ * Time: 13:42
+ */
+//THIS PAGE IS DESTINATION FOR ADMIN WHEN LOGGED IN AND TRYING TO ACCESS INDEX.PHP, AND WHEN CLICKING LINKS LEADING HERE
+include 'functions.php';
+//If no session exists, admin is sent to index.php
 session_start();
 if(!isset($_SESSION['ad_email'])){
     header("Location: index.php");
 }
 
 
-//This check shows the right message if the user was created or existed already
-if($_SERVER['REQUEST_METHOD']==='GET'){
-    $success = $_GET["Success"];
+//I DO NOW UNDERSTAND WHAT THIS DOES...
+if(isset($_GET['vol_email']))
+{
+    $login_name=$_GET['vol_email'];
 
-    if($success=="Yes"){
-        echo "<SCRIPT>alert('User created!!!');</SCRIPT>";
+    $result = getUser($login_name);
+    $row = mysqli_fetch_array($result);
+    $imageurl = $row['imageurl'];
+    if(file_exists($imageurl))
+    {
+
+        unlink($imageurl);
+
     }
-    elseif($success=="No"){
-        echo "<script>alert('User already exists');</script>";
-    }
+    deleteUser($login_name);
+    // header("location: delete-user.php");
 }
-?>
 
+
+?>
 
 
 
