@@ -14,6 +14,13 @@ header{
     align-items: center;
 }
 
+main{
+    background-color: lightblue;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 #bannercontainer{
      background: url("../images/bfcheaderbanner.png") center;
